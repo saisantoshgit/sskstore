@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Shopping Page</title>
 	<link rel="stylesheet" type="text/css" href="shop.css">
 	<style>
@@ -20,6 +21,15 @@
 		.header-logo img {
 			width: 150px;
 			height: auto;
+		}
+
+		@media screen and (max-width: 767px) {
+			.item {
+				display: block;
+				margin: 10px auto;
+				text-align: center;
+				vertical-align: top;
+			}
 		}
 	</style>
 </head>
